@@ -1,4 +1,4 @@
-package edu.yonsei.data;
+package edu.yonsei.test.data;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -49,17 +49,17 @@ public class TwitterDataCrawler {
 			public void onException(Exception ex) {
 				ex.printStackTrace();
 			}
-			@Override
+//			@Override
 			public void onDeletionNotice(StatusDeletionNotice arg0) {
 				// TODO Auto-generated method stub
 				
 			}
-			@Override
+//			@Override
 			public void onScrubGeo(long arg0, long arg1) {
 				// TODO Auto-generated method stub
 				
 			}
-			@Override
+//			@Override
 			public void onStallWarning(StallWarning arg0) {
 				// TODO Auto-generated method stub
 				
